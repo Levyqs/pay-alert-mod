@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "payalert",
+  "version": "${version}",
+  "name": "Pay Alert",
+  "description": "Shows who paid you, how much, and which game it is for (paper, blackjack, arrow, elytra). Rules are editable in game.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.payalert.PayAlertMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
